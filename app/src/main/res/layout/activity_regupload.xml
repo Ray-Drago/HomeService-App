@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReguploadActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_centerInParent="true">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorBlack"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ed"
+            android:layout_centerInParent="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="place"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:paddingStart="20dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="search"
+               android:textStyle="bold"
+               android:textColor="@color/white"
+               android:textSize="22sp"
+               android:layout_below="@+id/ed"
+               android:layout_marginTop="20dp"
+               android:background="@drawable/mainbtn"
+               android:id="@+id/bb"/>
+         <Button
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/bb"
+             android:textSize="22sp"
+             android:textStyle="bold"
+             android:textColor="@color/white"
+             android:text=" current location"
+             android:layout_marginTop="15dp"
+             android:background="@drawable/mainbtn"
+             android:id="@+id/b1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/b1"
+            android:textColor="@color/colorBlack"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="Latitude"
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b1"
+        android:text="longtitude"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:background="@drawable/mainbtn"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PayActivity">
+  <TextView
+      android:id="@+id/tvupload"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Payment"
+      android:textSize="23dp"
+      android:textStyle="bold"
+      android:layout_marginStart="33dp"
+      android:layout_marginEnd="33dp"
+      android:textColor="@color/bluee"
+      android:layout_marginTop="30dp"/>
+
+  <TextView
+      android:id="@+id/tvupload2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="33dp"
+      android:layout_marginTop="60dp"
+      android:layout_marginEnd="33dp"
+      android:text="You can pay via Google Pay"
+      android:textColor="@color/colorBlack"
+      android:textSize="17dp" />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_below="@+id/tvupload"
+      android:layout_marginStart="33dp"
+      android:layout_marginEnd="33dp"
+      android:layout_marginTop="20dp">
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:hint="Name"
+      android:textColor="@color/bluee"
+      android:textColorHint="@color/bluee"
+      android:textAlignment="gravity"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginTop="20dp"
+      android:id="@+id/name"
+     />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:hint="upi id"
+      android:textColorHint="@color/bluee"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginTop="20dp"
+      android:textColor="@color/bluee"
+      android:id="@+id/upi_id"/>
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:hint="Amount"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:id="@+id/amount_et"
+      android:textColorHint="@color/bluee"
+      android:textAlignment="gravity"
+      android:layout_marginTop="30dp"
+      android:textColor="@color/bluee"
+      android:inputType="numberDecimal"
+     />
+
+    <EditText
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Note"
+        android:textColor="@color/bluee"
+        />
+
+    <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/send"
+      android:layout_marginTop="20dp"
+      android:background="@color/bluee"
+      android:layout_centerHorizontal="true"
+      android:text="Pay Now"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:textColor="@color/colorWhite" />
+  </LinearLayout>
+</RelativeLayout>

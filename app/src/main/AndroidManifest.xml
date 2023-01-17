@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.hometech">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/resort"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/resort"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".AddReview"
+            android:exported="true" />
+        <activity
+            android:name=".user.Toolvideo.Viewvideo"
+            android:exported="true" />
+        <activity
+            android:name=".user.user_buyed_items.Orders"
+            android:exported="true" />
+        <activity
+            android:name=".Brand.Addapplaince"
+            android:exported="true" />
+        <activity
+            android:name=".Brand.BrandHome"
+            android:exported="true" />
+        <activity android:name=".tech.TechPayonDelivery" />
+        <activity android:name=".tech.techShopping.TechOtp" />
+        <activity android:name=".user.UsertechList" />
+        <activity android:name=".user.toolsList.UserToolList" />
+        <activity android:name=".tech.TechToolList" />
+        <activity android:name=".tech.techShopping.TechShoppingList" />
+        <activity android:name=".user.userShopping.userShoppingList" />
+        <activity android:name=".tech.view_buyed_items.BuyedItemsActivity" />
+        <activity android:name=".tech.Booking.Book_details" />
+        <activity android:name=".PayActivity" />
+        <activity android:name=".tech_cartList.TechListCartActivity" />
+        <activity android:name=".PayonDelivery" />
+        <activity android:name=".OtpActivity" />
+        <activity android:name=".ConfirmBuyActivity" />
+        <activity android:name=".user.userShopping.ViewProductActivity" />
+        <activity android:name=".tech.techShopping.techAddToCartActivity" />
+        <activity android:name=".user.user_buyed_items.UserBuyedItemsActivity" />
+        <activity android:name=".tech.techShopping.TechConfirmBuyActivity" />
+        <activity android:name=".tech.techShopping.techViewProductActivity" />
+        <activity android:name=".user.Construct" />
+        <activity
+            android:name=".user.Categories"
+            android:label="@string/categories" />
+        <activity android:name=".tech.TechEditProfileActivity"
+            android:theme="@style/akhil"/>
+        <activity android:name=".user.UserEditProfileActivity" />
+        <activity android:name=".ReguploadActivity" />
+        <activity android:name=".UploadLocationActivity" />
+        <activity android:name=".AddToCartActivity" />
+        <activity
+            android:name=".tech.TechHomeActivity"
+            android:label="@string/title_activity_tech_home" />
+        <activity android:name=".user_cartList.ListCartActivity" />
+        <activity android:name=".user.electrician.ViewDetails" />
+        <activity
+            android:name=".user.HomeActivity"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name=".FrgtthreeActivity"
+            android:theme="@style/otp" />
+        <activity
+            android:name=".FrgttwoActivity"
+            android:theme="@style/otp" />
+        <activity
+            android:name=".FrgtoneActivity"
+            android:theme="@style/otp" />
+        <activity android:name=".user.Plumbing.PlumbList" />
+        <activity android:name=".user.Mechanic.MechList" />
+        <activity android:name=".Brand.Brandlist.Brandlitst" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/akhil">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/akhil" />
+        <activity android:name=".user.List.UserListActivity" />
+        <activity android:name=".user.laundry.LaundryList" />
+        <activity android:name=".user.electrician.ElectricianList" />
+        <activity android:name=".user.computer.CmpList" />
+        <activity android:name=".user.Gpay" />
+        <activity android:name=".user.Map" />
+        <activity android:name=".tech.ViewbookingDetails" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/arshad" />
+    </application>
+
+</manifest>

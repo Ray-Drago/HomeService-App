@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".SplashActivity"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/mg"
+        android:layout_width="339dp"
+        android:layout_height="151dp"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/resort" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_below="@+id/mg"
+        android:fontFamily="serif"
+        android:text="RE-sort"
+        android:textAlignment="center"
+        android:textColor="@color/bluee"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        />
+
+
+</RelativeLayout>

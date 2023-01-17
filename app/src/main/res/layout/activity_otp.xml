@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtpActivity">
+
+    <TextView
+        android:id="@+id/s"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Otp Verification"
+        android:fontFamily="serif"
+        android:textColor="#FCFBFB"
+        android:textSize="40sp"
+        android:layout_marginTop="50dp"
+        />
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:id="@+id/s"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--       android:text="gyyubuyyuyiu"-->
+    <!--        android:fontFamily="ariel"-->
+    <!--        android:textColor="#FCFBFB"-->
+    <!--        android:textSize="40sp"-->
+    <!--        android:layout_marginTop="50dp"/>-->
+    <androidx.cardview.widget.CardView
+        app:cardElevation = "16dp"
+        app:cardCornerRadius = "160dp"
+        android:layout_margin = "16dp"
+        android:foregroundGravity = "center"
+        android:layout_centerInParent = "true"
+        android:layout_width = "160dp"
+        android:layout_below="@id/s"
+        android:layout_height = "160dp"
+        android:id="@+id/fp"
+        >
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/otp"
+        />
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/p"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter your verification code"
+        android:fontFamily="serif"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/fp" />
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Enter varification 6 digit code send to your registered mobile number"
+        android:textColor="#FCFBFB"
+        android:textSize="10dp"
+        android:layout_below="@id/p"/>
+
+    <!--        <EditText-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:id="@+id/ph"-->
+    <!--            android:layout_height="40dp"-->
+    <!--            android:layout_marginLeft="5dp"-->
+    <!--            android:layout_marginTop="15dp"-->
+    <!--            android:layout_marginRight="5dp"-->
+    <!--            android:layout_marginBottom="5dp"-->
+    <!--            android:drawablePadding="5dp"-->
+    <!--            android:elevation="10dp"-->
+    <!--            android:ems="10"-->
+    <!--            android:hint="Enter here"-->
+    <!--            android:inputType="textPassword"-->
+    <!--            android:paddingLeft="10dp"-->
+    <!--            android:textColorHint="#FFFCFBFB"-->
+    <!--            android:layout_below="@id/t"/>-->
+
+    <com.goodiebag.pinview.Pinview
+        app:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ph"
+        android:layout_below="@id/t"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        app:password="false"
+        app:cursorVisible="true"
+        app:pinLength="4"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/ph"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/bluee"
+        android:text="NEXT"
+        android:textColor="@color/colorWhite" />
+
+</RelativeLayout>

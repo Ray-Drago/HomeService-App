@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_cat">
+
+
+    <fragment
+        android:id="@+id/navigation_cat"
+        android:name="com.example.hometech.user.CatFragment"
+        android:label="Categories"
+        tools:layout="@layout/fragment_cat" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.hometech.user.UserHomeFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_user_home" />
+
+    <fragment
+        android:id="@+id/navigation_technician"
+        android:name="com.example.hometech.user.UserTechnicianFragment"
+        android:label="Technician"
+        tools:layout="@layout/fragment_technician" />
+
+    <!--<fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.hometech.user.UserNotificationsFragment"
+        android:label="Notification"
+        tools:layout="@layout/fragment_user_notifications" />-->
+
+    <fragment
+        android:id="@+id/navigation_tools"
+        android:name="com.example.hometech.user.UserToolsFragment"
+        android:label="Tools"
+        tools:layout="@layout/fragment_user_tools" />
+
+    <fragment
+        android:id="@+id/navigation_videos"
+        android:name="com.example.hometech.user.Toolvideo.UserVideoFragment"
+        android:label="Video"
+        tools:layout="@layout/fragment_user_video" />
+
+    <fragment
+        android:id="@+id/navigation_services"
+        android:name="com.example.hometech.user.userShopping.ServiceFragment"
+        android:label="Shopping"
+        tools:layout="@layout/fragment_service" />
+</navigation>

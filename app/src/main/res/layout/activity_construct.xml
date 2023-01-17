@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".user.Construct">
+
+    <TextView
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:text="Categories"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorDarkBlue"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:id="@+id/engineer"
+            android:layout_marginHorizontal="15dp"
+            android:text="Engineer" />
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorDarkBlue"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="15dp"
+            android:textSize="20dp"
+            android:id="@+id/mesan"
+            android:text="Mesan" />
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDarkBlue"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/carpenter"
+            android:textSize="20dp"
+            android:layout_marginHorizontal="15dp"
+            android:text="carpenter" />
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorDarkBlue"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_cat"
+        android:icon="@drawable/ic_baseline_category_24"
+        android:title="Category" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/navigation_technician"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Technician" />
+
+    <item
+        android:id="@+id/navigation_videos"
+        android:icon="@drawable/ic_play_circle_outline_black_24dp"
+        android:title="Videos" />
+    <item
+        android:id="@+id/navigation_services"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="Shopping" />
+
+
+</menu>

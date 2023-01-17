@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "94831933690",
+    "firebase_url": "https://vet-app-828de.firebaseio.com",
+    "project_id": "vet-app-828de",
+    "storage_bucket": "vet-app-828de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94831933690:android:b7cc4209dc011725d73143",
+        "android_client_info": {
+          "package_name": "com.example.hometech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94831933690-jqsbnst5vrao59o0p6belp64n382rj5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrxIFIDkJuH46zAbUXL4DLXzwulVKl1u8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94831933690-jqsbnst5vrao59o0p6belp64n382rj5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94831933690:android:b8600986f067ef43d73143",
+        "android_client_info": {
+          "package_name": "com.example.hp.vetapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94831933690-jqsbnst5vrao59o0p6belp64n382rj5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrxIFIDkJuH46zAbUXL4DLXzwulVKl1u8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94831933690-jqsbnst5vrao59o0p6belp64n382rj5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

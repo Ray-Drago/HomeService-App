@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nearby"
+      android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="Nearby Technicians" />
+
+    <item
+        android:id="@+id/mycart"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="My cart" />
+
+    <item
+        android:id="@+id/tools"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="Tool List" />
+    <item
+        android:id="@+id/buys"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="Buyed Items" />
+</menu>

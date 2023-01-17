@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".user.electrician.ViewDetails">
+
+    <TextView
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="110dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:text="Booking"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:layout_centerInParent="true"
+    android:layout_marginHorizontal="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/listname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:background="@drawable/stroke"
+        android:padding="10dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/listphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"
+        android:background="@drawable/stroke"
+        android:padding="10dp"
+        android:text="Phone" />
+
+    <TextView
+        android:id="@+id/listplace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/stroke"
+        android:padding="10dp"
+        android:text="Place" />
+
+    <TextView
+        android:id="@+id/listday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"
+        android:background="@drawable/stroke"
+        android:padding="10dp"
+        android:text="Available Day" />
+
+    <TextView
+        android:id="@+id/listwage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"
+        android:background="@drawable/stroke"
+        android:padding="10dp"
+        android:text="Wage" />
+
+    <TextView
+        android:id="@+id/listcategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"
+        android:background="@drawable/stroke"
+        android:padding="10dp"
+        android:text="category" />
+
+    <TextView
+        android:id="@+id/listsubcategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"
+        android:background="@drawable/stroke"
+        android:padding="10dp"
+        android:text="Subcategories:" />
+
+    <LinearLayout
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginTop="25dp"
+        android:textSize="17sp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnbook"
+            android:layout_width="122dp"
+            android:layout_height="match_parent"
+            android:background="@color/bluee"
+            android:text="Book"
+            android:textColor="@color/colorWhite" />
+
+
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:background="@color/bluee"
+            android:text="Call"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:background="@color/colorWhite"
+                                   app:cardCornerRadius="8dp"
+                                   app:cardElevation="9dp"
+                                   android:layout_margin="6dp"
+                                   android:id="@+id/card"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"/>
+
+        <TextView
+            android:id="@+id/prname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="name"
+            android:textColor="@color/colorRed"
+            android:textSize="18sp" />
+
+
+
+        <TextView
+            android:id="@+id/pprice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="price"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorRed"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/qua"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Quantinty"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorRed"
+            android:textSize="18sp"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Remove"
+    android:background="@color/bluee"
+    android:textColor="@color/white"
+    android:layout_marginTop="15dp"
+    android:id="@+id/btnRemove"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

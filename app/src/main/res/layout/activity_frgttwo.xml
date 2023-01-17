@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrgttwoActivity"
+    android:background="@drawable/blue2">
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/pnoimg"
+        android:layout_marginTop="100dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColorHint="@color/colorWhite"-->
+<!--            android:layout_marginTop="10dp">-->
+<!--        <EditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="enter OTP"-->
+<!--            android:textSize="22sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/colorWhite"-->
+<!--            android:id="@+id/otp1"/>-->
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+        <com.goodiebag.pinview.Pinview
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:pinWidth="40dp"
+            app:pinHeight="40dp"
+            app:pinLength="4"
+           android:id="@+id/otp1"
+            app:cursorVisible="true"
+            app:inputType="number"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mainbtn"
+            android:text="Verify"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:id="@+id/otp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

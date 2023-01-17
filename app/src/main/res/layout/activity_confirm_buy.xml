@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmBuyActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="25dp"
+
+        android:layout_marginEnd="25dp"
+        android:layout_centerInParent="true">
+
+
+
+        <EditText
+            android:id="@+id/etQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Quantity needed"
+            android:layout_marginTop="20dp"
+
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btnPrice"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Calculate Amount"
+            android:background="@color/bluee"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+
+        <Button
+            android:id="@+id/btnCON"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Confirm your oder"
+            android:background="@color/bluee"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

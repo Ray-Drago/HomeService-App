@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6DFE3"
+    tools:context=".PayonDelivery">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/delivery"
+        />
+
+    <Button
+        android:id="@+id/btnpay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@id/btnBuy"
+        android:layout_marginBottom="10dp"
+        android:background="@color/bluee"
+        android:text="Pay on delivery"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnBuy"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bluee"
+        android:text="Continue Payment"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
